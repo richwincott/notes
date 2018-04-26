@@ -18,7 +18,7 @@ A web server of your choice to host the html files.
 
 ## Installing
 ### App
-Place files on a webserver in a dir named 'notes'.
+Place the files on a webserver in a directory named 'notes'.
 
 ### Tests
 Open up a terminal window.
@@ -40,9 +40,10 @@ Open your favorite browser and point it to the location where you installed the 
 ```
 e.g. http://localhost/notes
 ```
-App is also hosted on my personal website, link below.
+The app is also hosted on my personal website, link below.
+```
 [http://www.richardwincott.co.uk/notes](http://www.richardwincott.co.uk/notes)
-
+```
 
 ### Tests
 In a termainal window run the command below to execute the tests.
