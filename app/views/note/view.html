@@ -1,0 +1,26 @@
+<h2>{{vm.note.title}}</h2>
+<p class="content">{{vm.note.content}}</p>
+<div ui-view></div>
+<hr/>
+<ul class="list-unstyled">
+    <li class="row" ng-repeat="comment in vm.note.comments | orderBy:'date':true">
+        <div class="hidden-xs col-sm-2 text-center">
+            <img class="avatar" ng-src="{{comment.author.avatar}}" />
+        </div>
+        <div class="col-xs-12 col-sm-10">
+            <div class="diamond hidden-xs"></div>
+            <div class="comment-content">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <b>{{comment.author.firstname}}</b>
+                    </div>
+                    <div class="col-xs-6 text-right">
+                        <b>{{comment.date | customdate}}</b>
+                    </div>
+                </div>            
+                <br/>
+                <p>{{comment.content}}</p>
+            </div>
+        </div>      
+    </li>
+</ul>

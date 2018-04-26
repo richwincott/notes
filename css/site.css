@@ -1,0 +1,115 @@
+body {
+    font-family:'Montserrat', Tahoma, Geneva, sans-serif;
+    background-color: #F4F6F7;
+}
+
+textarea {
+    resize: none;
+}
+
+h5 small {
+    color:red;
+}
+
+hr {
+    border-top:1px solid #ddd;
+}
+
+.table {
+    margin-bottom: 0px;
+    font-size:14px !important;
+}
+
+.table-container {
+    background-color: white;
+    padding:18px;
+    padding-bottom: 10px;
+    margin-top:5px;
+}
+
+td {
+    cursor: pointer;
+}
+
+.btn {
+    border-radius: 0px;
+    border:2px solid black;
+    font-weight: 900;
+}
+
+.btn:hover {
+    border:2px solid black;
+}
+
+.btn-default {
+    background-color:transparent;
+}
+
+.btn-primary, .btn-primary:focus  {
+    background-color: #1FBA97;
+    border: 2px solid #1FBA97;
+    color:white;
+}
+
+.btn-primary:hover, .btn-primary:focus:active, .btn-primary:hover:active, .btn-primary:active {
+    background-color: #1DAF8B;
+    border: 2px solid #1DAF8B;
+}
+
+.btn-create {
+    margin-top:5px;
+}
+
+.avatar {
+    height: 60px;
+    border-radius: 30px;
+}
+
+.comment-content {
+    background-color: white;
+    padding:15px;
+    border-bottom: 2px solid #eee;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.diamond {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 5px;
+    top: 15px;
+    z-index:-1;
+    background-color: white;
+    border-bottom: 2px solid #eee;
+    border-radius: 5px;
+}
+
+.content {
+    font-size:16px; 
+    margin-bottom:20px;
+}
+
+input, textarea {
+    border-radius: 0px !important;
+    border:1px solid #ccc !important;
+}
+
+.close {
+    font-size:16px;
+    padding:9px 0px;
+}
+
+.fa {
+    position: relative;
+    top:1px;
+}
+
+.fa-chevron-right {
+    left:4px;
+}
+
+.fa-chevron-left {
+    left:-4px;
+}

@@ -1,0 +1,31 @@
+<html ng-app="notes">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Notes</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" href="css/site.css" />
+    </head>
+
+    <body class="container">
+        <div ui-view></div>
+
+        <script src="js/jquery-1.9.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+        <script src="js/angular.min.js"></script>
+        <script src="js/angular-ui-router.min.js"></script>
+        
+        <script src="app/app.js"></script>
+        <script src="app/app.config.js"></script>
+        <script src="app/app.routes.js"></script>
+        <script src="app/app.services.js"></script>
+        <script src="app/app.filters.js"></script>
+
+        <script src="app/views/list/list.controller.js"></script>
+        <script src="app/views/new/new.controller.js"></script>
+        <script src="app/views/note/note.controller.js"></script>
+        <script src="app/views/login/login.controller.js"></script>
+    </body>
+</html>
