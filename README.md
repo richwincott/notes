@@ -41,9 +41,9 @@ Open your favorite browser and point it to the location where you installed the 
 e.g. http://localhost/notes
 ```
 The app is also hosted on my personal website, link below.
-```
+
 [http://www.richardwincott.co.uk/notes](http://www.richardwincott.co.uk/notes)
-```
+
 
 ### Tests
 In a termainal window run the command below to execute the tests.
