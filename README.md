@@ -7,6 +7,10 @@ Written in `AngularJS`.
 
 Uses `Karma` and `Jasmine` for testing.
 
+Login system does not use a back-end at present. Authentication checks are done with basic string matching. Keeping track of logged in user is done using HTML5LocalStorage.
+
+Since the app has no back-end or database notes are only save per page lifecyle. Refreshing you browser will reset back to the template data.
+
 ## Prerequisites
 ### App
 A web server of your choice to host the html files.
