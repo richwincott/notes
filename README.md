@@ -40,9 +40,9 @@ npm install karma-cli
 
 ## Running
 ### App
-Open your favorite browser and point it to the location where you installed the app.
+Open your favorite browser and point it to the location where you installed the app, for example.
 ```
-e.g. http://localhost/notes
+http://localhost/notes
 ```
 The app is also hosted on my personal website, link below.
 
