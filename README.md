@@ -14,8 +14,14 @@ Login system does not use a back-end at present. Authentication checks are done 
 
 Since the app has no back-end or database notes are only save per page lifecyle. Refreshing you browser will reset back to the template data.
 
+## Requirements
+* Node
+* NPM
+
 ## Running the app
-The app uses Gulp, so to run the development server..
+First run `npm install` to fetch the app dependancies.
+
+Then the app uses Gulp, so to start the development server run..
 ```
 gulp start
 ```
