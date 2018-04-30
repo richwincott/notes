@@ -1,6 +1,4 @@
-const app = angular.module("notes");
-
-app.filter("customdate", ["$filter", ($filter) => {
+app.filter("customdate", ["$filter", function ($filter) {
     return (input) => {
         const date = new Date(input);
         const today = new Date();

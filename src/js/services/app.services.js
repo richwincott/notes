@@ -1,6 +1,4 @@
-const app = angular.module("notes");
-
-app.service('myService', ["$http", "$q", ($http, $q) => { 
+app.service('myService', ["$http", "$q", function ($http, $q) { 
    let _notes = null;
    let _users = null;
 

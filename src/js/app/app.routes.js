@@ -1,6 +1,4 @@
-﻿const app = angular.module("notes");
-
-app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', ($stateProvider, $urlRouterProvider, $locationProvider) => {
+﻿app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', ($stateProvider, $urlRouterProvider, $locationProvider) => {
     $urlRouterProvider.otherwise('/');
     $stateProvider
         .state('login', {

@@ -1,6 +1,4 @@
-const app = angular.module("notes");
-
-app.controller("login.controller", ["$scope", "$rootScope", "$state", "myService", ($scope, $rootScope, $state, myService) => {
+app.controller("login.controller", ["$scope", "$rootScope", "$state", "myService", function ($scope, $rootScope, $state, myService) {
     let vm = this;
     
     vm.error = null;

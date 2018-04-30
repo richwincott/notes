@@ -1,6 +1,4 @@
-const app = angular.module("notes");
-
-app.controller("note.controller", ["$scope", "$state", "myService", ($scope, $state, myService) => {
+app.controller("note.controller", ["$scope", "$state", "myService", function ($scope, $state, myService) {
     let vm = this;
     
     vm.notes = [];
