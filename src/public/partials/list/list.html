@@ -1,0 +1,29 @@
+<div class="row">
+    <div class="col-xs-8">
+        <h2>Notes overview</h2>
+    </div>
+    <div class="col-xs-4 text-right">
+        <br/>
+        <a class="close" ui-sref="login">Logout</a>
+    </div>
+</div>
+<div class="table-container">
+    <table class="table">
+        <tr style="background-color:#E8EBED;">
+            <th>Created by</th>
+            <th>Title</th>
+            <th>Date</th>
+        </tr>
+        <tr ng-repeat="note in vm.notes | orderBy:'date':true" ui-sref="note.default({id:note.id})">
+            <td>{{note.author.firstname}}</td>
+            <td>{{note.title}}</td>
+            <td>{{note.date | customdate}}</td>
+        </tr>
+        <tr>
+            <td colspan="3" style="padding-left:0px;">
+                <a class="btn btn-primary btn-create" ui-sref="new">CREATE A NEW NOTE <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+            </td>
+        </tr>
+    </table>
+    <div style="clear:both;"></div>
+</div>
